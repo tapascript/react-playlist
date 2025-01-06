@@ -13,6 +13,6 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 
 ## Video
-TBA
+Here is the video for you to go through and learn:
 
-[![01-Why-React](./banner.png)](YOUTUBE_VIDEO_URL "Video")
+[![01-Why-React](./banner.png)](https://youtu.be/JSLTS3dfHKU "Video")

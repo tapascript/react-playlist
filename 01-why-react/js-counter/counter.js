@@ -30,6 +30,6 @@ function createCounter(container) {
 
 // Create multiple counters
 const countersContainer = document.getElementById("counters");
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 5; i++) {
   createCounter(countersContainer);
 }

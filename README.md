@@ -12,5 +12,5 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 ## Table of Content
 
-- **`01-Why React?`** - [Watch Video](TBD) || [Source Code](./01-why-react/README.md)
+- **`01-Why React?`** - [Watch Video](https://youtu.be/JSLTS3dfHKU) || [Source Code](./01-why-react/README.md)
 
