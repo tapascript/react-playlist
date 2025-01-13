@@ -14,4 +14,5 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 
 - **`01-Why React?`** - [Watch Video](https://youtu.be/JSLTS3dfHKU) || [Source Code](./01-why-react/README.md)
 - **`02-Code Environment`** - [Watch Video](https://youtu.be/9PZ4uymTAz0) || [Source Code](./02-code-environment/README.md)
+- **`03-Thinking in React: Components`** - [Watch Video](https://youtu.be/Byy41AxCK88) || [Source Code](./03-thinking-in-react/README.md)
 
