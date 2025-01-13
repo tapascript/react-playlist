@@ -17,6 +17,11 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## The Video Tutorial
 In this video tutorial, we have developed a UI design with the "Thinking in React" mindset.
 
-> ![boimela](boimela.png)
+> ![boimela](./boimela/boimela.png)
 *The UI Design*
+
+## Tasks
+Please complete these tasks. Refer to the video tutorial above to learn.
+
+- [Task 1](./task1.md)
 
