@@ -17,11 +17,17 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 ## The Video Tutorial
 In this video tutorial, we have developed a UI design with the "Thinking in React" mindset.
 
+Here is the video for you to go through and learn:
+
+[![03-think-in-react-component](./banner.png)](https://youtu.be/Byy41AxCK88 "Video")
+
+### The UI We Developed
+
 > ![boimela](./boimela/boimela.png)
 *The UI Design*
 
 ## Tasks
 Please complete these tasks. Refer to the video tutorial above to learn.
 
-- [Task 1](./task1.md)
+- [Tasks](./task.md)
 
