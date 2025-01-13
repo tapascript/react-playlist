@@ -1,12 +1,7 @@
-
 import Boimela from "./Boimela";
 
 function App() {
-  return (
-    <>
-      <Boimela/>
-    </>
-  );
+    return <Boimela />;
 }
 
 export default App;
