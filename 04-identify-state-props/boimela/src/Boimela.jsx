@@ -32,13 +32,17 @@ export default function Boimela() {
             featured: false,
         },
     ];
-    const [searchTerm] = useState("");
+    const [searchTerm, setSearchTerm] = useState("");
 
     return (
         <div className="container mx-auto p-4">
             <Header />
-            <SearchBar searchTerm={searchTerm}/>
-            <BookList searchTerm={searchTerm} books={BOOKS}/>
+            <SearchBar 
+                searchTerm={searchTerm}
+                onSearchBook={setSearchTerm}/>
+            <BookList 
+                searchTerm={searchTerm} 
+                books={BOOKS}/>
         </div>
     );
 }

@@ -7,7 +7,7 @@ function BookList({ searchTerm, books }) {
         if (book.title.toLowerCase().indexOf(searchTerm.toLowerCase()) === -1) {
             return;
         }
-        rows.push(<BookRow book={book} />);
+        rows.push(<BookRow key={book.id} book={book} />);
     });
 
     console.log(rows);
