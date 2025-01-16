@@ -32,17 +32,24 @@ export default function Boimela() {
             featured: false,
         },
     ];
+    const [books, setBooks] = useState(BOOKS);
     const [searchTerm, setSearchTerm] = useState("");
+
+    console.log(books)
+
+    const toggleFeatured = (id) => {
+        setBooks(
+            books.map((book) =>
+                book.id === id ? { ...book, featured: !book.featured } : book
+            )
+        );
+    };
 
     return (
         <div className="container mx-auto p-4">
             <Header />
-            <SearchBar 
-                searchTerm={searchTerm}
-                onSearchBook={setSearchTerm}/>
-            <BookList 
-                searchTerm={searchTerm} 
-                books={BOOKS}/>
+            <SearchBar searchTerm={searchTerm} onSearchBook={setSearchTerm} />
+            <BookList searchTerm={searchTerm} books={books} onFeatureBook={toggleFeatured} />
         </div>
     );
 }

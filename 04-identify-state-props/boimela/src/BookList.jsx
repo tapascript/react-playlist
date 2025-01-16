@@ -1,16 +1,14 @@
 import PropTypes from "prop-types";
 import BookRow from "./BookRow";
 
-function BookList({ searchTerm, books }) {
+function BookList({ searchTerm, books, onFeatureBook }) {
     const rows = [];
     books.forEach((book) => {
         if (book.title.toLowerCase().indexOf(searchTerm.toLowerCase()) === -1) {
             return;
         }
-        rows.push(<BookRow key={book.id} book={book} />);
+        rows.push(<BookRow key={book.id} book={book} onFeatureBook={onFeatureBook} />);
     });
-
-    console.log(rows);
 
     return <div className="space-y-4">{rows}</div>;
 }
@@ -23,6 +21,7 @@ BookList.propTypes = {
         })
     ).isRequired,
     searchTerm: PropTypes.string.isRequired,
+    onFeatureBook: PropTypes.func.isRequired
 };
 
 export default BookList;
