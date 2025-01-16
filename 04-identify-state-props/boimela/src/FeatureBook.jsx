@@ -3,11 +3,12 @@ import PropTypes from "prop-types";
 
 function FeatureBook({ book, onFeatureBook }) {
     return (
-        <Star
+        <button
             className="cursor-pointer"
-            color={book.featured ? "Green" : "Black"}
             onClick={() => onFeatureBook(book.id)}
-        />
+        >
+            <Star color={book.featured ? "Green" : "Black"} />
+        </button>
     );
 }
 
