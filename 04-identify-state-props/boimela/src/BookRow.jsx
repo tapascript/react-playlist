@@ -4,12 +4,11 @@ import BookDetails from "./BookDetails";
 import FeatureBook from "./FeatureBook";
 
 function BookRow({ book }) {
-    console.log(book);
     return (
-        <>
+        <div className="flex items-center justify-between p-4 bg-white shadow rounded-lg">
             <BookDetails title={book.title} author={book.title} />
             <FeatureBook />
-        </>
+        </div>
     );
 }
 
