@@ -6,7 +6,7 @@ import FeatureBook from "./FeatureBook";
 function BookRow({ book, onFeatureBook }) {
     return (
         <div className="flex items-center justify-between p-4 bg-white shadow rounded-lg">
-            <BookDetails title={book.title} author={book.title} />
+            <BookDetails title={book.title} author={book.author} />
             <FeatureBook book={book} onFeatureBook={onFeatureBook} />
         </div>
     );
