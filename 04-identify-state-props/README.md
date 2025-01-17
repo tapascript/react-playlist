@@ -15,7 +15,7 @@ In this video tutorial, we have developed a UI design with the "Thinking in Reac
 
 Here is the video for you to go through and learn:
 
-[![03-think-in-react-component](./banner.png)](https://youtu.be/Byy41AxCK88 "Video")
+[![03-think-in-react-component](./banner.png)](https://youtu.be/oB2qBjMiDpE "Video")
 
 ## Tasks
 Please complete these tasks. Refer to the video tutorial above to learn.
