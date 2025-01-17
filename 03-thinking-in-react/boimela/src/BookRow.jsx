@@ -7,7 +7,7 @@ function BookRow({ book }) {
     console.log(book);
     return (
         <>
-            <BookDetails title={book.title} author={book.title} />
+            <BookDetails title={book.title} author={book.author} />
             <FeatureBook />
         </>
     );
