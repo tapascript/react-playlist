@@ -15,7 +15,7 @@ In this video tutorial, we have developed a UI design with the "Thinking in Reac
 
 Here is the video for you to go through and learn:
 
-[![05-mastering-jsx](./banner.png)](https://youtu.be/oB2qBjMiDpE "Video")
+[![05-mastering-jsx](./banner.png)](https://www.youtube.com/watch?v=fPBW7Pn6O38&list=PLRFcjW6Dq28m95keSmOdGxvQqFvKsNwri&index=5 "Video")
 
 ## Tasks
 Please complete these tasks. Refer to the video tutorial above to learn.
