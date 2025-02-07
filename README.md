@@ -17,4 +17,5 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`03-Thinking in React: Components`** - [Watch Video](https://youtu.be/Byy41AxCK88) || [Source Code](./03-thinking-in-react/README.md)
 - **`04-Identify State and Props`** - [Watch Video](https://youtu.be/oB2qBjMiDpE) || [Source Code](./04-identify-state-props/README.md)
 - **`05-Master JSX`** - [Watch Video](https://www.youtube.com/watch?v=fPBW7Pn6O38&list=PLRFcjW6Dq28m95keSmOdGxvQqFvKsNwri&index=5) || [Source Code](./05-mastering-jsx/README.md)
+- **`06-React Events`** - [Watch Video](https://www.youtube.com/watch?v=fPBW7Pn6O38&list=PLRFcjW6Dq28m95keSmOdGxvQqFvKsNwri&index=9) || [Source Code](./06-event-handling/README.md)
 
