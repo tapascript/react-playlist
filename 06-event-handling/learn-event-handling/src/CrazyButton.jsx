@@ -1,27 +1,34 @@
 import PropTypes from 'prop-types';
 
-function CrazyButton({ message, children }) {
+function Button({message, children}) {
+  function handleClick(event, message) {
+    console.log(event.target);
+    console.log(message);
+  }
+
   return (
-    <button onClick={() => console.log(message)} className="bg-purple-600 text-white p-1 rounded cursor-pointer">
+    <button onClick={(event) => handleClick(event,message)} className="bg-purple-600 text-white p-1 rounded cursor-pointer">
       {children}
     </button>
   );
 }
 
-export default function Toolbar() {
+
+export default function CrazyButton() {
+  
   return (
     <div className="flex gap-1.5">
-      <CrazyButton message="Dancing!">
+      <Button message="Dancing!">
         Dance
-      </CrazyButton>
-      <CrazyButton message="Jumpping!">
+      </Button>
+      <Button message="Jumpping!">
         Jump
-      </CrazyButton>
+      </Button>
     </div>
   );
 }
 
-CrazyButton.propTypes = {
+Button.propTypes = {
   message: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };

@@ -1,11 +1,13 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-function Button({ onClick, children }) {
-  return (
-    <button className="bg-purple-600 text-white p-1 rounded cursor-pointer" onClick={onClick}>
-      {children}
-    </button>
-  );
+function Button({onClick, children}) {
+  return(
+    <button 
+      className="bg-purple-600 text-white p-1 rounded cursor-pointer"
+      onClick={onClick} >
+        {children}
+      </button>
+  )
 }
 
 Button.propTypes = {
@@ -13,16 +15,15 @@ Button.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-function PlayButton({ movieName }) {
+function PlayButton({movieName}) {
+
   function handlePlayClick() {
     console.log(`Playing ${movieName}!`);
   }
 
   return (
-    <Button onClick={handlePlayClick}>
-      Play {movieName}
-    </Button>
-  );
+    <Button onClick={handlePlayClick}>Play {movieName}</Button>
+  )
 }
 
 PlayButton.propTypes = {
@@ -30,18 +31,18 @@ PlayButton.propTypes = {
 };
 
 function UploadButton() {
-  return (
-    <Button onClick={() => console.log('Uploading!')}>
-      Upload Image
-    </Button>
-  );
+  return(
+    <Button onClick={()=> console.log("Uploading...")}>Upload</Button>
+  )
 }
 
-export default function Toolbar() {
+const ToolBar = () => {
   return (
     <div className="flex gap-1.5">
-      <PlayButton movieName="Tom and Jerry" />
+      <PlayButton movieName="Tom & Jerry"/>
       <UploadButton />
     </div>
-  );
+  )
 }
+
+export default ToolBar
