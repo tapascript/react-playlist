@@ -1,4 +1,4 @@
-# 06 - React Events
+# 08 - React Events
 
 Master Events and its Rules with Hands-on Coding.
 
@@ -15,6 +15,6 @@ In this video tutorial, we have developed a UI design with the "Thinking in Reac
 
 Here is the video for you to go through and learn:
 
-[![06-events](./banner.png)](https://www.youtube.com/watch?v=fPBW7Pn6O38&list=PLRFcjW6Dq28m95keSmOdGxvQqFvKsNwri&index=9 "Video")
+[![08-events](./banner.png)](https://www.youtube.com/watch?v=fPBW7Pn6O38&list=PLRFcjW6Dq28m95keSmOdGxvQqFvKsNwri&index=9 "Video")
 
 
