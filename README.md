@@ -21,3 +21,4 @@ I am an independent educator and open-source enthusiast who creates meaningful p
 - **`07-Tailwind CSS 4.x and React`** - [Watch Video](https://www.youtube.com/watch?v=X07QLNsm1kE&list=PLRFcjW6Dq28m95keSmOdGxvQqFvKsNwri&index=7)
 - **`08-React Events`** - [Watch Video](https://www.youtube.com/watch?v=MHxltS0XXlU&list=PLRFcjW6Dq28m95keSmOdGxvQqFvKsNwri&index=9) || [Source Code](./06-event-handling/README.md)
 
+
