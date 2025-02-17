@@ -17,3 +17,8 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+body{
+  background-color: rgba(18, 18, 18, 0.845);
+  color: #fff;
+}
